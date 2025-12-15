@@ -43,10 +43,34 @@ RedLock is an **open‑source Python project** that simulates a *lock‑screen /
 
 ```
 RedLock/
+ ├─ build/
+ ├─ dist/
+ │   └─ redlock.exe
  ├─ redlock.py
- ├─ README.md
- └─ .gitignore
+ ├─ redlock.spec
+ └─ README.md
 ```
+
+RedLock/
+├─ redlock.py
+├─ README.md
+└─ .gitignore
+
+```
+
+---
+
+## 🔑 Default Unlock Key
+
+For educational testing purposes, the default unlock key used in this project is:
+
+```
+
+11.11.11.11
+
+````
+
+> ⚠️ This key is **hard‑coded for learning and demonstration only**. Do **NOT** use real passwords or secrets in production code.
 
 ---
 
@@ -57,9 +81,8 @@ RedLock/
 3. A **full‑screen red GUI** is displayed.
 4. The user enters a **key**.
 5. If the key is correct:
-
-   * The program attempts to remove a predefined test file.
-   * Permission errors are caught and displayed.
+   - The program attempts to remove a predefined test file.
+   - Permission errors are caught and displayed.
 6. The application closes after unlock.
 
 > ℹ️ No encryption is performed. No personal files are touched.
@@ -69,15 +92,13 @@ RedLock/
 ## 🚀 Run the Project (Python)
 
 ### Requirements
-
-* Windows
-* Python 3.9+
+- Windows
+- Python 3.9+
 
 ### Run
-
 ```bash
 python redlock.py
-```
+````
 
 ---
 
@@ -136,4 +157,3 @@ GitHub: [https://github.com/K807-PRo/RedLock.git](https://github.com/K807-PRo/Re
 ---
 
 > "To defend against threats, you must first understand how they work."
-
